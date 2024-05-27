@@ -27,7 +27,9 @@ export const Hero = () => {
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button disabled className="w-full md:w-1/3">Get Started Soon</Button>
+          <a href="https://app.ilyas.ai">
+            <Button className="w-full md:w-1/3">Get Started Soon</Button>
+          </a>
 
           {/* A decommenter quand on aura le github <a
             rel="noreferrer noopener"

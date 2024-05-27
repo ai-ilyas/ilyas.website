@@ -131,7 +131,9 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button disabled className="w-full">Start Free Plan Soon</Button>
+          <a href="https://app.ilyas.ai">
+            <Button className="w-full">Start Free Plan Soon</Button>
+          </a>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
